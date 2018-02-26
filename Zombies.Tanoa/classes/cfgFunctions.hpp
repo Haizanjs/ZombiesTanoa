@@ -11,7 +11,7 @@ class CfgFunctions
 			class systemMessage {};
 			class spawnZombieAgent {};
 			class logicZombieAgent {};
-			class logicZombieSniff {};
+			class findPlayer_ZombieAgent {};
 		};
 	};
 };

@@ -2,6 +2,7 @@
 @File=fn_logicZombieAgent.sqf
 @Author=Heisen
 @LastEditor=Heisen
+@Desc=Main control over behavior of the Zombie Agent!
 **********************************************/
 
 
@@ -24,7 +25,7 @@
 			deleteVehicle _zombie;
 		};
 		
-		_nearPlyUnit = [_zombie] call Client_fnc_logicZombieSniff;
+		_nearPlyUnit = [_zombie] call Client_fnc_findPlayer_ZombieAgent;
 		if (count _nearPlyUnit >=1) then {
 			
 			if !((floor random 100) >= 96) then {
