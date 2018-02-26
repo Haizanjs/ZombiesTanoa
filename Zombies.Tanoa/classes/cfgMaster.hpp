@@ -5,3 +5,4 @@
 **********************************************/
 
 #include "cfgZombies.hpp"
+#include "cfgDamage.hpp"

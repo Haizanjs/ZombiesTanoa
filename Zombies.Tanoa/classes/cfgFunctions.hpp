@@ -8,10 +8,23 @@ class CfgFunctions
 		class Core_Functions
 		{
 			file = "functions";
-			class systemMessage {};
 			class spawnZombieAgent {};
-			class logicZombieAgent {};
+		};
+		class Core_sys_behaviour
+		{
+			file = "functions\sys_behaviour";
 			class findPlayer_ZombieAgent {};
+			class logicZombieAgent {};
+		};
+		class Core_sys_damage
+		{
+			file = "functions\sys_damage";
+			class getDamageModel {};
+		};
+		class Core_sys_util
+		{
+			file = "functions\sys_util";
+			class systemMessage {};
 		};
 	};
 };
