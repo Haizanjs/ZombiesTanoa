@@ -1,12 +1,22 @@
-#### WIP Zombies
+## WIP Zombies
 
 This project is a side-project and will have on-going updates/support. 
 
+**Status:** >> NOT STABLE
 
-##### Features
+#### Features~
 
-Current.
--
+###### Current
+*  Basic Zombie Logic
+*  Basic Damage Dealing
+*  Basic Movement
 
-Planned.
--
+
+###### Planned
+*  Unique P3D Models
+     * Male/Female varients
+*  Unique Animations
+     * Movement
+     * Attacks
+*  Sounded Environment
+     * Pre-Recorded sounds to create a surreal apocalyptic feel
